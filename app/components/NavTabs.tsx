@@ -15,7 +15,7 @@ export default function NavTabs() {
   return (
     <nav className="-mb-px flex gap-8">
       {tabs.map(({ label, href }) => {
-        const active = pathname === href
+        const active = pathname.replace(/\/$/, '') === href.replace(/\/$/, '')
         return (
           <a
             key={href}
