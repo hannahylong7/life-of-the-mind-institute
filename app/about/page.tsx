@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <main className="min-h-screen bg-[#f5f0e6] text-[#2c1a0e]">
-      <section className="mx-auto max-w-3xl px-6 pt-20 pb-16">
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 pt-10 sm:pt-20 pb-10 sm:pb-16">
         <article className="space-y-6 text-base leading-7 text-[#4a3222]">
           <p>
             I am optimistic that AI is coming to take my job. And yours too.
@@ -93,6 +93,28 @@ export default function About() {
             or we can define this moment. I invite you to join me.
           </p>
         </article>
+        <div className="mt-12 pt-8 border-t border-[#c8b99a] text-center">
+          <p className="mb-4 text-sm text-[#2c1a0e]">Join the Life of the Mind Institute</p>
+          <form
+            action="https://app.kit.com/forms/9385829/subscriptions"
+            method="post"
+            className="inline-flex items-center gap-2"
+          >
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Your email"
+              required
+              className="px-3 py-1.5 text-xs border border-[#c8b99a] bg-white text-[#2c1a0e] placeholder:text-[#7a5c42] rounded focus:outline-none focus:border-[#7a5c42]"
+            />
+            <button
+              type="submit"
+              className="px-3 py-1.5 text-xs bg-[#2c1a0e] text-[#f5f0e6] rounded hover:bg-[#4a3222] transition-colors"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
       </section>
     </main>
   );

@@ -3,6 +3,7 @@ import { EB_Garamond, Geist_Mono } from "next/font/google";
 import Image from "next/image";
 import "./globals.css";
 import NavTabs from "./components/NavTabs";
+import SubscribeModal from "./components/SubscribeModal";
 
 const ebGaramond = EB_Garamond({
   variable: "--font-eb-garamond",
@@ -33,18 +34,21 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <header className="border-b border-[#c8b99a] bg-[#ede5d0]">
-          <div className="mx-auto max-w-3xl px-6">
-            <div className="py-6">
+          <div className="pt-3 pr-4 sm:pr-6 flex justify-end">
+            <SubscribeModal />
+          </div>
+          <div className="mx-auto max-w-4xl px-4 sm:px-6">
+            <div className="py-3 sm:py-4">
               <a
                 href="/about"
-                className="flex items-center gap-4 text-2xl font-semibold uppercase tracking-[0.2em] text-[#2c1a0e]"
+                className="flex items-center gap-2 sm:gap-4 text-base sm:text-xl md:text-2xl font-semibold uppercase tracking-[0.1em] sm:tracking-[0.2em] text-[#2c1a0e]"
               >
                 <Image
                   src="/logo.png"
                   alt="Life of the Mind Institute logo"
                   width={120}
                   height={120}
-                  className="shrink-0"
+                  className="shrink-0 w-10 h-10 sm:w-16 sm:h-16 md:w-[120px] md:h-[120px]"
                 />
                 Life of the Mind Institute
               </a>

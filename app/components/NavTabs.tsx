@@ -13,7 +13,7 @@ export default function NavTabs() {
   const pathname = usePathname()
 
   return (
-    <nav className="-mb-px flex gap-8">
+    <nav className="-mb-px flex gap-4 sm:gap-8 overflow-x-auto">
       {tabs.map(({ label, href }) => {
         const active = pathname.replace(/\/$/, '') === href.replace(/\/$/, '')
         return (
