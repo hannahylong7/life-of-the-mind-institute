@@ -41,14 +41,14 @@ export default function RootLayout({
             <div className="py-3 sm:py-4">
               <a
                 href="/about"
-                className="flex items-center gap-2 sm:gap-4 text-base sm:text-xl md:text-2xl font-semibold uppercase tracking-[0.1em] sm:tracking-[0.2em] text-[#2c1a0e]"
+                className="flex flex-col items-center text-center sm:flex-row sm:text-left gap-2 sm:gap-4 text-base sm:text-xl md:text-2xl font-semibold uppercase tracking-[0.1em] sm:tracking-[0.2em] text-[#2c1a0e]"
               >
                 <Image
                   src="/logo.png"
                   alt="Life of the Mind Institute logo"
                   width={120}
                   height={120}
-                  className="shrink-0 w-10 h-10 sm:w-16 sm:h-16 md:w-[120px] md:h-[120px]"
+                  className="shrink-0 w-20 h-20 sm:w-16 sm:h-16 md:w-[120px] md:h-[120px]"
                 />
                 Life of the Mind Institute
               </a>
