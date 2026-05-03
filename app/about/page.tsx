@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <main className="min-h-screen bg-[#f5f0e6] text-[#2c1a0e]">
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 pt-10 sm:pt-20 pb-10 sm:pb-16">
+      <section className="mx-auto max-w-4xl px-4 sm:px-6 pt-6 sm:pt-12 pb-10 sm:pb-16">
         <article className="space-y-6 text-base leading-7 text-[#4a3222]">
           <p>
             I am optimistic that AI is coming to take my job. And yours too.
@@ -93,6 +93,10 @@ export default function About() {
             or we can define this moment. I invite you to join me.
           </p>
         </article>
+        <div className="mt-10 pt-6 text-right">
+          <p className="text-sm text-[#4a3222]">Hannah Long</p>
+          <p className="text-xs text-[#7a5c42]">April 29, 2026</p>
+        </div>
         <div className="mt-12 pt-8 border-t border-[#c8b99a] text-center">
           <p className="mb-4 text-sm text-[#2c1a0e]">Join the Life of the Mind Institute</p>
           <form
