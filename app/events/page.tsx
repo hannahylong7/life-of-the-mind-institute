@@ -9,7 +9,7 @@ export default function Events() {
           <h2 className="text-xl font-semibold text-[#2c1a0e] mb-1">
             How will we know when we have AGI?
           </h2>
-          <p className="text-sm text-[#7a5c42] mb-4">Central Park · 8:00 PM</p>
+          <p className="text-sm text-[#7a5c42] mb-4">Little Island, NYC · 5:30 PM</p>
           <p className="text-sm italic text-[#7a5c42]">Details coming soon.</p>
         </div>
       </section>
