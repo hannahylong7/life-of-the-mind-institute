@@ -17,7 +17,7 @@ export default function LumaButton() {
   return (
     <a
       href="https://lu.ma/cjxvvr0m"
-      className="luma-checkout--button mt-4 inline-block px-5 py-2 text-sm bg-[#2c1a0e] text-[#f5f0e6] rounded hover:bg-[#4a3222] transition-colors"
+      className="luma-checkout--button mt-2 inline-block px-3 py-1 text-xs bg-[#2c1a0e] text-[#f5f0e6] rounded hover:bg-[#4a3222] transition-colors"
       data-luma-action="checkout"
     >
       RSVP
